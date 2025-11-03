@@ -10,6 +10,7 @@ namespace Arena.Player
     public class PlayerController : MonoBehaviour
     {
         [SerializeField] private CharacterModel model; // temp
+
         [SerializeField] private StatsComponent statsComponent;
         [SerializeField] private AnimatorComponent animatorComponent;
 
